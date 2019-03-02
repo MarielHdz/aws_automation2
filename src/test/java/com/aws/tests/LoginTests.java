@@ -10,7 +10,7 @@ import com.aws.utilities.ConfigReader;
 
 public class LoginTests extends TestBase {
 
-	@Test()
+	@Test(priority=1)
 	public void signIn() {
 		driver.get(ConfigReader.getProperty("url"));
 		LoginPage loginPage = new LoginPage();
@@ -25,7 +25,7 @@ public class LoginTests extends TestBase {
 		Assert.assertEquals("Hello, paola", helloUser.trim(), "User logedIn verification: ");
 	}
 	
-	@Test()
+	@Test(priority=2, groups="smoke", description="void method printing message")
 	public void test() {
 		System.out.println("ran test");
 	}

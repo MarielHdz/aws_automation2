@@ -2,66 +2,66 @@
 <testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="moretest" duration-ms="54708" started-at="2019-03-02T00:57:21Z" finished-at="2019-03-02T00:58:15Z">
+  <suite name="moretest" duration-ms="50393" started-at="2019-03-02T03:12:44Z" finished-at="2019-03-02T03:13:34Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="54708" started-at="2019-03-02T00:57:21Z" finished-at="2019-03-02T00:58:15Z">
+    <test name="test" duration-ms="50393" started-at="2019-03-02T03:12:44Z" finished-at="2019-03-02T03:13:34Z">
       <class name="com.aws.tests.LoginTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="setUp" is-config="true" duration-ms="7784" started-at="2019-03-02T00:57:54Z" finished-at="2019-03-02T00:58:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="setUp" is-config="true" duration-ms="6782" started-at="2019-03-02T03:13:13Z" finished-at="2019-03-02T03:13:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signIn()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="signIn" duration-ms="5750" started-at="2019-03-02T00:58:01Z" finished-at="2019-03-02T00:58:07Z">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="signIn" duration-ms="6552" started-at="2019-03-02T03:13:19Z" finished-at="2019-03-02T03:13:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="tearDown" is-config="true" duration-ms="963" started-at="2019-03-02T00:58:07Z" finished-at="2019-03-02T00:58:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="tearDown" is-config="true" duration-ms="876" started-at="2019-03-02T03:13:26Z" finished-at="2019-03-02T03:13:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="setUp" is-config="true" duration-ms="6333" started-at="2019-03-02T00:58:08Z" finished-at="2019-03-02T00:58:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="setUp" is-config="true" duration-ms="6414" started-at="2019-03-02T03:13:27Z" finished-at="2019-03-02T03:13:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="test" duration-ms="2" started-at="2019-03-02T00:58:14Z" finished-at="2019-03-02T00:58:14Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="test" duration-ms="2" started-at="2019-03-02T03:13:33Z" finished-at="2019-03-02T03:13:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="tearDown" is-config="true" duration-ms="924" started-at="2019-03-02T00:58:14Z" finished-at="2019-03-02T00:58:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.LoginTests@1e88b3c]" name="tearDown" is-config="true" duration-ms="849" started-at="2019-03-02T03:13:33Z" finished-at="2019-03-02T03:13:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.aws.tests.LoginTests -->
       <class name="com.aws.tests.HomeTest">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="setUpTest" is-config="true" duration-ms="21" started-at="2019-03-02T00:57:21Z" finished-at="2019-03-02T00:57:21Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="setUpTest" is-config="true" duration-ms="19" started-at="2019-03-02T03:12:44Z" finished-at="2019-03-02T03:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="setUp" is-config="true" duration-ms="10501" started-at="2019-03-02T00:57:21Z" finished-at="2019-03-02T00:57:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="setUp" is-config="true" duration-ms="9304" started-at="2019-03-02T03:12:44Z" finished-at="2019-03-02T03:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dealsTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="dealsTest" duration-ms="5258" started-at="2019-03-02T00:57:31Z" finished-at="2019-03-02T00:57:36Z">
+        <test-method status="PASS" signature="dealsTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="dealsTest" duration-ms="5618" started-at="2019-03-02T03:12:53Z" finished-at="2019-03-02T03:12:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dealsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="926" started-at="2019-03-02T00:57:36Z" finished-at="2019-03-02T00:57:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="945" started-at="2019-03-02T03:12:59Z" finished-at="2019-03-02T03:13:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="setUp" is-config="true" duration-ms="8373" started-at="2019-03-02T00:57:37Z" finished-at="2019-03-02T00:57:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="setUp" is-config="true" duration-ms="6774" started-at="2019-03-02T03:13:00Z" finished-at="2019-03-02T03:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="searchTest" duration-ms="7010" started-at="2019-03-02T00:57:46Z" finished-at="2019-03-02T00:57:53Z">
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="searchTest" duration-ms="5323" started-at="2019-03-02T03:13:06Z" finished-at="2019-03-02T03:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="816" started-at="2019-03-02T00:57:53Z" finished-at="2019-03-02T00:57:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="896" started-at="2019-03-02T03:13:12Z" finished-at="2019-03-02T03:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2019-03-02T00:58:15Z" finished-at="2019-03-02T00:58:15Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.aws.tests.HomeTest@77caeb3e]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2019-03-02T03:13:34Z" finished-at="2019-03-02T03:13:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->

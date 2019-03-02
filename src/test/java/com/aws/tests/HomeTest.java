@@ -10,7 +10,7 @@ import com.aws.utilities.ConfigReader;
 
 public class HomeTest extends TestBase{
 
-	@Test()
+	@Test(priority=2, groups="smoke", description="running search test")
 	public void searchTest() {
 		driver.get(ConfigReader.getProperty("url"));
 		HomePage homePage = new HomePage();
@@ -19,7 +19,7 @@ public class HomeTest extends TestBase{
 		Assert.assertEquals("Amazon.com: wigs", title, "title verification: ");		
 	}
 	
-	@Test()
+	@Test(priority=1)
 	public void dealsTest() {
 		driver.get(ConfigReader.getProperty("url"));
 		HomePage homePage = new HomePage();
