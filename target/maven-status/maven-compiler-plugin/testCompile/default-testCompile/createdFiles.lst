@@ -1,0 +1,7 @@
+com\aws\tests\LoginTests.class
+com\aws\pages\LoginPage.class
+com\aws\utilities\Driver.class
+com\aws\tests\HomeTest.class
+com\aws\tests\TestBase.class
+com\aws\pages\HomePage.class
+com\aws\utilities\ConfigReader.class

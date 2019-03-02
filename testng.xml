@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="moretest" verbose="2">
+	<test name="test">
+		<packages>
+			<package name="com.aws.tests" />
+		</packages>
+	</test>
+</suite>
