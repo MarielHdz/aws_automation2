@@ -43,6 +43,7 @@ public class LoginTests extends TestBase {
 		String helloUser = homePage.helloMsg.getText();
 		Assert.assertEquals("Hello, paola", helloUser.trim(), "User logedIn verification: ");
 		extentLogger.pass("verified user name in logged module");
+		System.out.println("PAola");
 	}
 
 }
