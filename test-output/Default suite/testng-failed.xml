@@ -7,9 +7,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="mytestDelete"/>
           <include name="setUpTest"/>
-          <include name="dealsTest"/>
-          <include name="searchTest"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- com.aws.tests.HomeTest -->

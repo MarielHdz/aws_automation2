@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [moretest]" parallel="classes">
-  <test thread-count="5" verbose="2" name="test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [moretest]">
+  <test thread-count="5" verbose="2" name="test(failed)">
     <classes>
-      <class name="com.aws.tests.HomeTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="setUpTest"/>
-          <include name="dealsTest"/>
-          <include name="searchTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.aws.tests.HomeTest -->
       <class name="com.aws.tests.LoginTests">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="test"/>
+          <include name="invalidUserName"/>
           <include name="signIn"/>
           <include name="setUpTest"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- com.aws.tests.LoginTests -->
+      <class name="com.aws.regression.Test1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="mytest"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.aws.regression.Test1 -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [moretest] -->

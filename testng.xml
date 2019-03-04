@@ -1,14 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="moretest" verbose="2">
 	<test name="test">
-		<groups>
-			<run>
-				<include name="smoke"></include>
-			</run>
-		</groups>
-		<classes>
-			<class name="com.aws.tests.HomeTest"></class>
-			<class name="com.aws.regression.Test1"></class>
-		</classes>
+		<packages>
+			<package name="com.aws.tests"></package>
+			<package name="com.aws.regression"></package>
+		</packages>
 	</test>
 </suite>
