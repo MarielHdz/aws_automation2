@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 /target/
+=======
+target/
+test-output/
+.idea/
+.DS_Store
+>>>>>>> branch 'master' of https://github.com/paolaGlo/aws_automation.git

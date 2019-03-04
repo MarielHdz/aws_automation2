@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>aws_automation2</name>
+=======
+	<name>aws_automation</name>
+>>>>>>> branch 'master' of https://github.com/paolaGlo/aws_automation.git
 	<comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
 	<projects>
 	</projects>
